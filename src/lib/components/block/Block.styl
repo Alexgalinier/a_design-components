@@ -1,0 +1,28 @@
+@import 'a_design/styles/mixins/sizing'
+@import 'a_design/styles/mixins/colors'
+
+.block {
+  .block-title {
+    _m(0)
+    _pb(20)
+    _pr(20)
+    _lh1()
+    _fs(22)
+    text-align left
+    font-weight normal
+  }
+
+  .block-content {
+    _bg('white')
+    _p(20)
+    border-radius 3px
+    box-shadow 2px 2px 3px rgba(0, 0, 0, .1)
+  }
+
+  .block.danger {
+    .block-content {
+      _b(1)
+      _bc('red')
+    }
+  }
+}
