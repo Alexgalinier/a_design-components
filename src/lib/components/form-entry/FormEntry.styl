@@ -1,0 +1,25 @@
+@import 'a_design/styles/mixins/sizing'
+
+.form-entry .label {
+  _fs(14)
+  _lh1()
+  _pb(10)
+  display block
+  text-transform uppercase
+  font-weight bold
+}
+
+.form-entry .error-message {
+  color #BF360C
+  font-weight bold
+  font-size 14px
+  line-height 14px
+}
+
+.form-entry.error {
+  padding-bottom 8px
+}
+
+.form-entry.error .input {
+  background #FBE9E7
+}

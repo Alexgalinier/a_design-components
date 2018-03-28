@@ -1,0 +1,20 @@
+@import 'a_design/styles/mixins/sizing'
+@import 'a_design/styles/mixins/colors'
+
+.input,
+.select {
+  _fs(16)
+  _plr(10)
+  _b(1)
+  _bc('grey1')
+  _bg('grey2')
+  _color('alpha50')
+  width 100%
+  border-radius 3px
+  line-height 36px
+}
+
+.input:focus,
+.select:focus {
+  color black
+}
