@@ -15,6 +15,12 @@ branches:
 
 jobs:
   include:
+    - stage: test
+      script:
+        - npm test
+        - npm run test-coverage
+    - stage: build
+      script: npm build
     - stage: release
       node_js: lts/*
       deploy:
