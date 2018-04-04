@@ -18,14 +18,9 @@ jobs:
     - stage: test
       script:
         - npm run build
-        - npm test
         - npm run test-coverage
       after_success: bash <(curl -s https://codecov.io/bash) -t $CODECOV_TOKEN
     - stage: release
-      node_js: lts/*
-      deploy:
-        provider: script
-        skip_cleanup: true
-        script:
-          - npm run build
-          - npm run release
+      script:
+        - npm run build
+        - npm run release
