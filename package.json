@@ -40,7 +40,7 @@
     "node": ">=8"
   },
   "dependencies": {
-    "a_design": "^2.1.0"
+    "a_design": "^2.2.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^2.0.1",
