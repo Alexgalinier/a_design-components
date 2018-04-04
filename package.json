@@ -12,7 +12,8 @@
     "prebuild": "npm run build-styl",
     "build": "node scripts/build.js;",
     "pretest": "npm run build-styl",
-    "test": "CI=true node scripts/test.js --env=jsdom",
+    "test": "CI=true node scripts/test.js",
+    "test-coverage": "node scripts/test.js --coverage",
     "release": "semantic-release"
   },
   "husky": {
