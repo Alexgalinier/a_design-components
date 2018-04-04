@@ -17,6 +17,7 @@ jobs:
   include:
     - stage: test
       script:
+        - npm run build
         - npm test
         - npm run test-coverage
       after_success: bash <(curl -s https://codecov.io/bash) -t $CODECOV_TOKEN
