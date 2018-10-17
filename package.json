@@ -44,7 +44,7 @@
     "a_design": "^3.0.0"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "^2.0.1",
+    "@semantic-release/changelog": "^3.0.1",
     "@semantic-release/git": "^4.0.1",
     "a_codestyle": "^3.0.1",
     "autoprefixer": "8.2.0",
