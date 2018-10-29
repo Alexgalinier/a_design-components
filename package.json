@@ -58,7 +58,7 @@
     "chalk": "2.3.2",
     "commitizen": "^2.9.6",
     "copy-webpack-plugin": "^4.3.1",
-    "css-loader": "0.28.11",
+    "css-loader": "1.0.1",
     "cz-conventional-changelog": "^2.1.0",
     "dotenv": "5.0.1",
     "eslint": "4.19.1",
